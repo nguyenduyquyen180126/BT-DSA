@@ -8,10 +8,10 @@ Cài đặt các thuật toán sắp xếp cơ bản.
 - Sắp xếp chèn
 - Sắp xếp nổi bọt
 ## Bài tập chương 6
-Cài đặt 2 thuật toán sắp xếp nâng cao
+Cài đặt 2 thuật toán sắp xếp nâng cao.
 - Sắp xếp nhanh
 - Sắp xếp trộn
-Cách chạy file test: Trong dir có test_vector.txt chứa các test case, expected.txt chứa các output đúng của các test case trong test_vector.txt (thep đúng thứ tự).
+### Cách chạy file test: Trong dir có test_vector.txt chứa các test case, expected.txt chứa các output đúng của các test case trong test_vector.txt (thep đúng thứ tự).
 1. Change dir vào bài tập tuần 6:
 `cd bai_tap_tuan_6`
 2. Khoá các file .a cũ:
