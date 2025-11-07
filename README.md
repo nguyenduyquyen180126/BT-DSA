@@ -13,10 +13,14 @@ Cài đặt 2 thuật toán sắp xếp nâng cao
 - Sắp xếp trộn
 Cách chạy file test: Trong dir có test_vector.txt chứa các test case, expected.txt chứa các output đúng của các test case trong test_vector.txt (thep đúng thứ tự).
 1. Change dir vào bài tập tuần 6
+
 `cd bai_tap_tuan_6`
 2. Khoá các file .a cũ
+
 `make clean`
 3. Chạy test_merge_sort_.c
+
 `make test_merge_sort`
 4. Chạy test_quick_sort.c
+
 `make test_quick_sort`
