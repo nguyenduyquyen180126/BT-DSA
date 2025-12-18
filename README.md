@@ -27,3 +27,10 @@ Cài đặt các phương thức sau để quản lý danh sách sinh viên vớ
 - Tính chiều dài của danh sách.
 - Tìm số lượng sinh viên có GPA >3.2.
 - Sắp xếp danh sách sinh viên theo thứ tự tăng dần của điểm GPA, thêm vào danh sách một sinh viên mới có sinh viên là 2.4 và bổ sung vào danh sách theo thứ tự đúng.
+## Bài tập phần Stack
+## Bài tập tuần 14 
+- Cài đặt cây chỉ mục , tạo 2 project theo 2 cách cài đặt khác nhau 
+- Cài đặt cây tương ứng với cấu trúc lưu trữ tuần tự 
+- Cài đặt cây tương ứng với cấu trúc lưu trữ móc nối
+- Cài đặt các hàm khởi tạo cây, kiểm tra cây rỗng, thêm vào các nút con trái con phải , hàm duyệt cây theo 3 phương thức trước, giữa, sau 
+Nhập thông tin các nút trên cây như hình vẽ mô tả trong file đính kèm 
