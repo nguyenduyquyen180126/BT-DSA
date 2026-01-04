@@ -91,20 +91,20 @@ void BTree::printLNR(Node *p){
     p->print();
     printLNR(p->R);
 }
-void adjust(Node *root){
-    if(root == nullptr){
+void adjust(Node *p){
+    if(p == nullptr){
         return;
     }
-    Node *largest = root;
-    if(root->L != nullptr && root->L->data > root->data){
-        largest = root->L;
+    Node *largest = p;
+    if(p->L != nullptr && p->L->data > largest->data){
+        largest = p->L;
     }
-    else if(root->R != nullptr && root->R->data > root->data){
-        largest = root->R;
+    if(p->R != nullptr && p->R->data > largest->data){
+        largest = p->R;
     }
-    if(largest != root){
-        int temp = root->data;
-        root->data = largest->data;
+    if(largest != p){
+        int temp = p->data;
+        p->data = largest->data;
         largest->data = temp;
         adjust(largest);
     }

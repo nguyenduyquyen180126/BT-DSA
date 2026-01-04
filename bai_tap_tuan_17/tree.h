@@ -205,7 +205,7 @@ void NLR(Node *p){
     NLR(p->R);
 }
 
-void deleteNodes(Node* node) {
+void deleteNodes(Node* node){
     if(node == nullptr) return;
     
     deleteNodes(node->L);
@@ -220,23 +220,25 @@ ToC::~ToC(){
 }
 
 
-void updateNodeRecursive(Node* node, int& currentPage) {
+void updateNodeRecursive(Node* node, int& currentPage){
     if(node == nullptr) return;
     
 
     node->startPape = currentPage;
     
-    if(node->L != nullptr) {
+    if(node->L != nullptr){
 
         updateNodeRecursive(node->L, currentPage);
 
         node->papeNum = currentPage - node->startPape;
         node->endPape = currentPage - 1;
-    } else {
-        if(node->papeNum > 0) {
+    } 
+    else{
+        if(node->papeNum > 0){
             currentPage += node->papeNum;
             node->endPape = currentPage - 1;
-        } else {
+        } 
+        else{
             node->endPape = node->startPape;
         }
     }
@@ -310,7 +312,7 @@ void ToC::deleteElement(NodeType type, int index1, int index2, int index3, int i
             }
         }
         
-        delNode->R = nullptr; // Disconnect to avoid deleting siblings
+        delNode->R = nullptr; 
         deleteNodes(delNode);
         reindexNodes(this->root->L, 1);
         this->update();
@@ -456,16 +458,16 @@ bool isEqualRecursive(Node *p1, Node *p2){
 }
 void ToC::isCopyOf(ToC *other){
     if(this->root == nullptr && other->root == nullptr){
-        std::cout<<this->root->header<<" is copy of "<<other->root->header<<std::endl;
+        std::cout<<"\nHai cay rong\n";
     }
     if(this->root == nullptr || other->root == nullptr){
-        std::cout<<this->root->header<<" is not copy of "<<other->root->header<<std::endl;
+        std::cout<<"\nMot trong 2 cay rong\n";
     }
     if(isEqualRecursive(this->root->L, other->root->L)){
-        std::cout<<this->root->header<<" is copy of "<<other->root->header<<std::endl;
+        std::cout<<this->root->header<<" va "<<other->root->header<<" Hai cuon sach la ban copy cua nhau"<<std::endl;
     }
     else{
-        std::cout<<this->root->header<<" is not copy of "<<other->root->header<<std::endl;
+        std::cout<<this->root->header<<" va "<<other->root->header<<" Hai cuon sach khong phai ban copy cua nhau"<<std::endl;
     }
 }
 #endif
