@@ -33,4 +33,18 @@ Cài đặt các phương thức sau để quản lý danh sách sinh viên vớ
 - Cài đặt cây tương ứng với cấu trúc lưu trữ tuần tự 
 - Cài đặt cây tương ứng với cấu trúc lưu trữ móc nối
 - Cài đặt các hàm khởi tạo cây, kiểm tra cây rỗng, thêm vào các nút con trái con phải , hàm duyệt cây theo 3 phương thức trước, giữa, sau 
-Nhập thông tin các nút trên cây như hình vẽ mô tả trong file đính kèm 
+Nhập thông tin các nút trên cây như hình vẽ mô tả trong file đính kèm.
+## Bài tập tuần 14-15
+- Bài 1: Cài đặt cây nhị phân để dựng được một cây có các nút lưu trữ số nguyên theo cấu trúc dưới đây (có thể lựa chọn cài đặt theo cấu trúc lưu trữ tuần tự hoặc móc nối)
+1. In giá trị các nút trên cây nhị phân theo thứ tự duyệt trước, duyệt sau, duyệt giữa
+2. Thiết kế và cài đặt giải thuật vun đống cho cây, in ra giá trị các nút trên cây đã được vun đống theo thứ tự duyệt trước
+- Bài 2: Thiết kế giải thuật để kiểm tra 2 cây nhị phân có giống hệt nhau hay không
+- Bài 3: Hãy cài đặt cấu trúc dữ liệu cây nhị phân tìm kiếm theo khung chương trình cho bên dưới. Mỗi nút trên cây chứa một số nguyên. Cấu trúc dữ liệu này cho phép chèn thêm nút mới và tìm kiếm nút theo một giá trị cho trước
+## Bài tập tuần 17
+- Bài 1: Mục lục của một cuốn sách được lưu trữ dưới dạng một cây trong đó mỗi node có thể là chapter (chương), section (mục), subsection (mục con), subsubsection (các mục của mục con).
+Khai báo cấu trúc cây để biểu diễn cuốn sách. Các thông tin chứa ở mỗi node sinh viên tự đưa vào (Gợi ý: có thể dùng số để đánh index cho các phần) để đảm bảo các nội dung sau được thực hiện:
+1. Xác định số chương của cuốn sách
+2. Tìm chương dài nhất của cuốn sách
+3. Thực hiện tìm một mục và xoá mục đó khỏi sách. Lưu ý cập nhật lại số trang của từng mục.
+4. Tìm một chương bất kỳ và in ra đề mục của chương đó.
+- Bài 2: Thiết kế giải thuật để kiểm tra hai cuốn sách có phải là bản copy của nhau không (Gợi ý: Mỗi node chưa 2 thuộc tính là index dạng số, và tên mục dạng chuỗi ký tự).
