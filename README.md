@@ -48,3 +48,5 @@ Khai báo cấu trúc cây để biểu diễn cuốn sách. Các thông tin ch�
 3. Thực hiện tìm một mục và xoá mục đó khỏi sách. Lưu ý cập nhật lại số trang của từng mục.
 4. Tìm một chương bất kỳ và in ra đề mục của chương đó.
 - Bài 2: Thiết kế giải thuật để kiểm tra hai cuốn sách có phải là bản copy của nhau không (Gợi ý: Mỗi node chưa 2 thuộc tính là index dạng số, và tên mục dạng chuỗi ký tự).
+## Bài tập tuần 17 online
+Cài đặt cây theo 2 cách
