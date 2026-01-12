@@ -1,8 +1,6 @@
 {
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
     "files.associations": {
-        "array.h": "c",
-        "stdlib.h": "c",
-        "string": "cpp",
         "array": "cpp",
         "atomic": "cpp",
         "bit": "cpp",
@@ -19,6 +17,7 @@
         "cwchar": "cpp",
         "cwctype": "cpp",
         "deque": "cpp",
+        "string": "cpp",
         "unordered_map": "cpp",
         "vector": "cpp",
         "exception": "cpp",
@@ -45,12 +44,6 @@
         "ostream": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
-        "typeinfo": "cpp",
-        "cerrno": "cpp",
-        "climits": "cpp",
-        "list": "cpp",
-        "ios": "cpp",
-        "queue": "cpp"
-    },
-    "C_Cpp.default.compilerPath": "/usr/bin/g++"
+        "typeinfo": "cpp"
+    }
 }
